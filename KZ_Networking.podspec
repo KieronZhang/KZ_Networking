@@ -13,8 +13,11 @@ Pod::Spec.new do |s|
     s.frameworks = 'Foundation', 'UIKit'
     s.requires_arc = true
 
-    s.ios.frameworks = 'Foundation', 'UIKit', 'MobileCoreServices', 'CoreGraphics', 'Security', 'SystemConfiguration', 'CoreTelephony'
-    s.osx.frameworks = 'Foundation', 'AppKit', 'CoreServices', 'Security', 'SystemConfiguration'
+#    s.ios.frameworks = 'Foundation', 'UIKit', 'MobileCoreServices', 'CoreGraphics', 'Security', 'SystemConfiguration', 'CoreTelephony'
+#    s.osx.frameworks = 'Foundation', 'AppKit', 'CoreServices', 'Security', 'SystemConfiguration'
+
+    s.ios.frameworks = 'Foundation', 'UIKit', 'CoreTelephony'
+    s.osx.frameworks = 'Foundation', 'AppKit'
 
     s.ios.deployment_target = '8.0'
     s.osx.deployment_target = '10.10'

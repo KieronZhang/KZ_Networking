@@ -8,7 +8,7 @@
 
 #import "AppDelegate.h"
 #import <KZ_Database_iOS/KZ_DatabaseManager.h>
-#import <KZ_Networking_iOS_Framework/KZ_NetworkingRequest.h>
+#import <KZ_Networking_iOS/KZ_NetworkingRequest.h>
 
 @interface AppDelegate ()
 
