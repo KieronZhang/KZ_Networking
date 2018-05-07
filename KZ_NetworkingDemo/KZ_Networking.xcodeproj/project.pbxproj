@@ -26,8 +26,8 @@
 		AEC628DB20A02EE200DFC8B9 /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AEC628D420A02EE100DFC8B9 /* CollectionViewCell.m */; };
 		AEC628E620A02F3800DFC8B9 /* macOS_User.m in Sources */ = {isa = PBXBuildFile; fileRef = AEC628E420A02F3800DFC8B9 /* macOS_User.m */; };
 		AEC628E720A02F3800DFC8B9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEC628E520A02F3800DFC8B9 /* ViewController.m */; };
-		AEC628E920A0362200DFC8B9 /* KZ_Networking_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEC628E820A0362200DFC8B9 /* KZ_Networking_iOS.framework */; };
-		AEC628EB20A0362E00DFC8B9 /* KZ_Networking_macOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEC628EA20A0362E00DFC8B9 /* KZ_Networking_macOS.framework */; };
+		AEC628ED20A0390F00DFC8B9 /* KZ_Networking_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEC628EC20A0390F00DFC8B9 /* KZ_Networking_iOS.framework */; };
+		AEC628EF20A0391600DFC8B9 /* KZ_Networking_macOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEC628EE20A0391600DFC8B9 /* KZ_Networking_macOS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -69,8 +69,8 @@
 		AEC628E320A02F3800DFC8B9 /* macOS_User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = macOS_User.h; sourceTree = "<group>"; };
 		AEC628E420A02F3800DFC8B9 /* macOS_User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = macOS_User.m; sourceTree = "<group>"; };
 		AEC628E520A02F3800DFC8B9 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		AEC628E820A0362200DFC8B9 /* KZ_Networking_iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KZ_Networking_iOS.framework; sourceTree = "<group>"; };
-		AEC628EA20A0362E00DFC8B9 /* KZ_Networking_macOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KZ_Networking_macOS.framework; sourceTree = "<group>"; };
+		AEC628EC20A0390F00DFC8B9 /* KZ_Networking_iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KZ_Networking_iOS.framework; sourceTree = "<group>"; };
+		AEC628EE20A0391600DFC8B9 /* KZ_Networking_macOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KZ_Networking_macOS.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,7 +79,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A82A68D643E9F7968BB48389 /* Pods_KZ_Networking_iOS.framework in Frameworks */,
-				AEC628E920A0362200DFC8B9 /* KZ_Networking_iOS.framework in Frameworks */,
+				AEC628ED20A0390F00DFC8B9 /* KZ_Networking_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +88,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5AB178FB53C2458F744C7197 /* Pods_KZ_Networking_macOS.framework in Frameworks */,
-				AEC628EB20A0362E00DFC8B9 /* KZ_Networking_macOS.framework in Frameworks */,
+				AEC628EF20A0391600DFC8B9 /* KZ_Networking_macOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -184,7 +184,7 @@
 		AEC628DC20A02F1E00DFC8B9 /* Networking */ = {
 			isa = PBXGroup;
 			children = (
-				AEC628E820A0362200DFC8B9 /* KZ_Networking_iOS.framework */,
+				AEC628EC20A0390F00DFC8B9 /* KZ_Networking_iOS.framework */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -192,7 +192,7 @@
 		AEC628DF20A02F2D00DFC8B9 /* Networking */ = {
 			isa = PBXGroup;
 			children = (
-				AEC628EA20A0362E00DFC8B9 /* KZ_Networking_macOS.framework */,
+				AEC628EE20A0391600DFC8B9 /* KZ_Networking_macOS.framework */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
