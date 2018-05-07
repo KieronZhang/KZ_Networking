@@ -10,7 +10,6 @@ Pod::Spec.new do |s|
 
     s.source = {:git => 'https://github.com/KieronZhang/KZ_Networking.git', :tag => s.version, :submodules => true}
     s.xcconfig = {'OTHER_LDFLAGS' => '-ObjC'}
-    s.frameworks = 'Foundation', 'UIKit'
     s.requires_arc = true
 
     s.ios.frameworks = 'Foundation', 'UIKit', 'CoreTelephony', 'MobileCoreServices', 'CoreGraphics', 'Security', 'SystemConfiguration'
