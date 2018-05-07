@@ -1,0 +1,18 @@
+use_frameworks!
+
+target 'KZ_Networking_iOS' do
+    
+    platform :ios, '8.0'
+    pod 'KZ_DatabaseModel'
+    pod 'KZ_Categories'
+    pod 'KZ_RefreshScrollView'
+    
+end
+
+target 'KZ_Networking_macOS' do
+    
+    platform :osx, '10.10'
+    pod 'KZ_DatabaseModel'
+    pod 'KZ_Categories'
+    
+end

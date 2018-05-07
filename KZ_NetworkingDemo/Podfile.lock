@@ -1,0 +1,43 @@
+PODS:
+  - KZ_Categories (0.1.2):
+    - KZ_JSON
+  - KZ_Database (0.1.1):
+    - KZ_JSON
+  - KZ_DatabaseModel (0.1.1):
+    - KZ_Database
+    - KZ_Model
+  - KZ_JSON (0.1.2)
+  - KZ_MacroDefinition (0.1.1)
+  - KZ_Model (0.1.2):
+    - KZ_JSON
+  - KZ_RefreshScrollView (0.1.2):
+    - KZ_Categories
+    - KZ_MacroDefinition
+
+DEPENDENCIES:
+  - KZ_Categories
+  - KZ_DatabaseModel
+  - KZ_RefreshScrollView
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - KZ_Categories
+    - KZ_Database
+    - KZ_DatabaseModel
+    - KZ_JSON
+    - KZ_MacroDefinition
+    - KZ_Model
+    - KZ_RefreshScrollView
+
+SPEC CHECKSUMS:
+  KZ_Categories: 447b3422a265f3086d507769232b2d2360bb9b3d
+  KZ_Database: db9620a2f8e96f39fe26bf2cec5a52bc0174cea9
+  KZ_DatabaseModel: 92d9c21c9a4f41ce5f56075aba69b65dafeeb955
+  KZ_JSON: 71ee38a4e9a97b46c3c302408b9329051bb49980
+  KZ_MacroDefinition: 880f8b055e28f317d651f04c6b81b8af387051d0
+  KZ_Model: 58cbb5496db9300e031cf7e6bc9127ea693d0472
+  KZ_RefreshScrollView: 73f6c20e71e0f9e51cb6aca8edb3a5a52e1e52d8
+
+PODFILE CHECKSUM: 2f9d0541ecd5963d081d3361c3c8ccfd051e4bbf
+
+COCOAPODS: 1.5.0
