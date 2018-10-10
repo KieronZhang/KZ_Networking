@@ -30,8 +30,8 @@ typedef NS_ENUM(NSInteger, KZ_RequestSerializerType) {
 };
 
 typedef NS_ENUM(NSInteger, KZ_ResponseSerializerType) {
-    KZ_ResponseSerializerType_HTTP,
     KZ_ResponseSerializerType_JSON,
+    KZ_ResponseSerializerType_HTTP,
     KZ_ResponseSerializerType_XMLParser,
     KZ_ResponseSerializerType_PropertyList,
     KZ_ResponseSerializerType_Image,
