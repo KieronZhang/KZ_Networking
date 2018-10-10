@@ -22,3 +22,21 @@ typedef NS_ENUM(NSInteger, KZ_RequestMethod) {
     KZ_RequestMethod_DELETE,
     KZ_RequestMethod_HTML,
 };
+
+typedef NS_ENUM(NSInteger, KZ_RequestSerializerType) {
+    KZ_RequestSerializerType_HTTP,
+    KZ_RequestSerializerType_JSON,
+    KZ_RequestSerializerType_PropertyList,
+};
+
+typedef NS_ENUM(NSInteger, KZ_ResponseSerializerType) {
+    KZ_ResponseSerializerType_HTTP,
+    KZ_ResponseSerializerType_JSON,
+    KZ_ResponseSerializerType_XMLParser,
+    KZ_ResponseSerializerType_PropertyList,
+    KZ_ResponseSerializerType_Image,
+    KZ_ResponseSerializerType_Compound,
+#if TARGET_OS_OSX
+    KZ_ResponseSerializerType_XMLDocument,
+#endif
+};

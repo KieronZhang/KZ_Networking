@@ -8,9 +8,9 @@
 
 #import <Foundation/Foundation.h>
 #import "KZ_PolicyStyle.h"
-#if TARGET_OS_IPHONE
+#if TARGET_OS_IOS
 #import <KZ_DatabaseModel_iOS/KZ_DatabaseModel.h>
-#elif TARGET_OS_MAC
+#elif TARGET_OS_OSX
 #import <KZ_DatabaseModel_macOS/KZ_DatabaseModel.h>
 #endif
 
@@ -25,6 +25,8 @@
 @property (nonatomic, assign) KZ_PolicyStyle cachePolicy; //访问缓存方式
 @property (nonatomic, assign) NSTimeInterval policyTimeExpried; //访问缓存过期时间
 @property (nonatomic, assign) BOOL URLencode; //是否转码 默认YES
+@property (nonatomic, assign) KZ_RequestSerializerType requestSerializerType;
+@property (nonatomic, assign) KZ_ResponseSerializerType responseSerializerType;
 
 @property (nonatomic, strong) NSDictionary *updateParameters; //上传参数，如果设置了上传参数，则缓存方式只能是KZ_PolicyStyle_DoNotReadFromCache
 @property (nonatomic, strong) NSString *fileName; //上传文件名字，默认是随机获取32位字符串作为文件名
