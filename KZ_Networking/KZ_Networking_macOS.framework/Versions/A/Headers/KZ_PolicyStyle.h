@@ -17,6 +17,7 @@ typedef NS_ENUM(NSInteger, KZ_PolicyStyle) {
 typedef NS_ENUM(NSInteger, KZ_RequestMethod) {
     KZ_RequestMethod_GET,
     KZ_RequestMethod_POST,
+    KZ_RequestMethod_POSTFORM,
     KZ_RequestMethod_PUT,
     KZ_RequestMethod_PATCH,
     KZ_RequestMethod_DELETE,

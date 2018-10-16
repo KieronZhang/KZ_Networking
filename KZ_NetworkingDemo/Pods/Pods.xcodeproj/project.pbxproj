@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1C91C1DC1965B9C6067DA4D802931799 /* Pods-KZ_Networking_macOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C7AD5FCFB180570EA210B9822FE994B0 /* Pods-KZ_Networking_macOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3255B083C4FA8C12701C16B595EF4F1E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51FC1E5D1F5671E0532D52CB477AC228 /* Cocoa.framework */; };
-		3D30A5BA62DEB7EC0C89CAF0A5FAD6D7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB8E2D632CADFEBE217900FD1D4F3ABF /* Foundation.framework */; };
-		56183DF4BDA9BA85213CA2E13DF4909C /* Pods-KZ_Networking_macOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 417AF2493CAB78F2FF9F9AC1348F0509 /* Pods-KZ_Networking_macOS-dummy.m */; };
-		9B3B32E47F5B1E309D829171B9E5B444 /* Pods-KZ_Networking_iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FE287DC83AE61E22AAC060770385828 /* Pods-KZ_Networking_iOS-dummy.m */; };
-		DAD2F689DD536745A521DA76F1E05865 /* Pods-KZ_Networking_iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EA1872C256378DD2A5339FEE9EAE6B9 /* Pods-KZ_Networking_iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		527FC9C98E150314B5A9EF8CCF2AF8B5 /* Pods-KZ_Networking_iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FE287DC83AE61E22AAC060770385828 /* Pods-KZ_Networking_iOS-dummy.m */; };
+		5B69725C710DE57923D5317093BAB745 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51FC1E5D1F5671E0532D52CB477AC228 /* Cocoa.framework */; };
+		800A57700D626E4B49275919D8CDF2C8 /* Pods-KZ_Networking_iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EA1872C256378DD2A5339FEE9EAE6B9 /* Pods-KZ_Networking_iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9DDE5E512811BBC2D53ACC9053104351 /* Pods-KZ_Networking_macOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C7AD5FCFB180570EA210B9822FE994B0 /* Pods-KZ_Networking_macOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A05558D20DE52094432041FE70654F80 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A3B95749CB04F60F62DDD9D7467DC4D /* Foundation.framework */; };
+		E69DDE53FAD4AC894F828818D6852E53 /* Pods-KZ_Networking_macOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 417AF2493CAB78F2FF9F9AC1348F0509 /* Pods-KZ_Networking_macOS-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +25,7 @@
 		417AF2493CAB78F2FF9F9AC1348F0509 /* Pods-KZ_Networking_macOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KZ_Networking_macOS-dummy.m"; sourceTree = "<group>"; };
 		51FC1E5D1F5671E0532D52CB477AC228 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
 		5CCB3E537A8A2606A496887BB129D114 /* KZ_Categories_iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KZ_Categories_iOS.framework; path = KZ_Categories/KZ_Categories_iOS.framework; sourceTree = "<group>"; };
+		6A3B95749CB04F60F62DDD9D7467DC4D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		6D2F45CD4AD9E9C61CB9180412EAC956 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7567DF365B02FDFA1EE1BCA44DA06117 /* Pods-KZ_Networking_macOS-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KZ_Networking_macOS-frameworks.sh"; sourceTree = "<group>"; };
 		7707B0BBBB7DF099C9980AEB1B9E52B4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -42,7 +43,6 @@
 		C7AD5FCFB180570EA210B9822FE994B0 /* Pods-KZ_Networking_macOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KZ_Networking_macOS-umbrella.h"; sourceTree = "<group>"; };
 		D2AF7BFD5AB857F80FE9E62740EBFD77 /* Pods-KZ_Networking_iOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KZ_Networking_iOS-acknowledgements.plist"; sourceTree = "<group>"; };
 		D9B20F5F3998DEEA4E399E6B41DE9939 /* Pods-KZ_Networking_macOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KZ_Networking_macOS.modulemap"; sourceTree = "<group>"; };
-		DB8E2D632CADFEBE217900FD1D4F3ABF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		DC5CE502B41C4510F393713BB0E9568D /* KZ_Database_macOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KZ_Database_macOS.framework; path = KZ_Database/KZ_Database_macOS.framework; sourceTree = "<group>"; };
 		E190F3CA3A7F14E3EBE65F4FB2391E4B /* Pods-KZ_Networking_macOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KZ_Networking_macOS-acknowledgements.plist"; sourceTree = "<group>"; };
 		E4DC4A3031F98718B69DEDF8241859E5 /* Pods-KZ_Networking_macOS-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KZ_Networking_macOS-resources.sh"; sourceTree = "<group>"; };
@@ -57,19 +57,19 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		24D04D0F0FB546B038826D7927C8B7DC /* Frameworks */ = {
+		25ECC038E1933CF63EE9C6E9D5D8A5DA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3255B083C4FA8C12701C16B595EF4F1E /* Cocoa.framework in Frameworks */,
+				A05558D20DE52094432041FE70654F80 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F68D225C5A4C3AAB57D5A899D9A7003D /* Frameworks */ = {
+		580836B5F513CE0F1BE09BA1BBE70AE2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D30A5BA62DEB7EC0C89CAF0A5FAD6D7 /* Foundation.framework in Frameworks */,
+				5B69725C710DE57923D5317093BAB745 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,7 +150,7 @@
 		3AEF7D761E8EA8419BB4A7000AB770CB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				8C918DD0468B798DBE7EEDD4C9D4170B /* iOS */,
+				FA3AAB077231D63C079B0E9C7476D0BC /* iOS */,
 				34BE8B02178A92BA2FB4B7888ECF14F5 /* OS X */,
 			);
 			name = Frameworks;
@@ -201,14 +201,6 @@
 				2C4537D48A6A94E557D8A3C2FDFA4D08 /* Products */,
 				C5521B6A20C685E83CD26AD087C619DD /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		8C918DD0468B798DBE7EEDD4C9D4170B /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				DB8E2D632CADFEBE217900FD1D4F3ABF /* Foundation.framework */,
-			);
-			name = iOS;
 			sourceTree = "<group>";
 		};
 		9E5BAF331C825CB2062604959C7603FC /* Frameworks */ = {
@@ -313,52 +305,44 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		FA3AAB077231D63C079B0E9C7476D0BC /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6A3B95749CB04F60F62DDD9D7467DC4D /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		72232D4A29C73752CC19E72CB7304CA0 /* Headers */ = {
+		917A89AE4ADC576F627C1B50B23DA1D3 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C91C1DC1965B9C6067DA4D802931799 /* Pods-KZ_Networking_macOS-umbrella.h in Headers */,
+				9DDE5E512811BBC2D53ACC9053104351 /* Pods-KZ_Networking_macOS-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F6A29F86FBCA15E7B3779E71DC3D3E8D /* Headers */ = {
+		DF8CF4D5CFC39C1BD399ECBD6A569DF5 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DAD2F689DD536745A521DA76F1E05865 /* Pods-KZ_Networking_iOS-umbrella.h in Headers */,
+				800A57700D626E4B49275919D8CDF2C8 /* Pods-KZ_Networking_iOS-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		0D9446DC358D48D7F5891CE88C3595D8 /* Pods-KZ_Networking_iOS */ = {
+		6701E1DB0920C245E74E1AAE4A1A1A53 /* Pods-KZ_Networking_macOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CCC765ACB63466263F3E339735A247DB /* Build configuration list for PBXNativeTarget "Pods-KZ_Networking_iOS" */;
+			buildConfigurationList = B222062B74B907A79DC5E5D8D9A6652A /* Build configuration list for PBXNativeTarget "Pods-KZ_Networking_macOS" */;
 			buildPhases = (
-				E2F1BF5854A83741004A5E4A75767C51 /* Sources */,
-				F68D225C5A4C3AAB57D5A899D9A7003D /* Frameworks */,
-				F6A29F86FBCA15E7B3779E71DC3D3E8D /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-KZ_Networking_iOS";
-			productName = "Pods-KZ_Networking_iOS";
-			productReference = FAF5FEC82D6135222B1A3DE78C35AC73 /* Pods_KZ_Networking_iOS.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		FBC9E02A4B353948BE3FF7A729B31B0A /* Pods-KZ_Networking_macOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 47FA2D1181B2C1884A16352180EF2390 /* Build configuration list for PBXNativeTarget "Pods-KZ_Networking_macOS" */;
-			buildPhases = (
-				89AE0BDBD55B41321E0CDB0377F94C19 /* Sources */,
-				24D04D0F0FB546B038826D7927C8B7DC /* Frameworks */,
-				72232D4A29C73752CC19E72CB7304CA0 /* Headers */,
+				917A89AE4ADC576F627C1B50B23DA1D3 /* Headers */,
+				BC87DCE27C392CB552E3FDDAF5FA3460 /* Sources */,
+				580836B5F513CE0F1BE09BA1BBE70AE2 /* Frameworks */,
+				1854CB4A1FB35AA597799CCAAAF18B0D /* Resources */,
 			);
 			buildRules = (
 			);
@@ -367,6 +351,24 @@
 			name = "Pods-KZ_Networking_macOS";
 			productName = "Pods-KZ_Networking_macOS";
 			productReference = F3DD6256B4E69D8295E2B41244F35799 /* Pods_KZ_Networking_macOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D8F4A11BFC267C13EA39A789EA35C860 /* Pods-KZ_Networking_iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71643508EF3493F3A5AFE81DAA7243F3 /* Build configuration list for PBXNativeTarget "Pods-KZ_Networking_iOS" */;
+			buildPhases = (
+				DF8CF4D5CFC39C1BD399ECBD6A569DF5 /* Headers */,
+				9B46B30E074F0C9B8105C7752AEEADA3 /* Sources */,
+				25ECC038E1933CF63EE9C6E9D5D8A5DA /* Frameworks */,
+				03722AB6159401A15E93FEA09BE7A03A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-KZ_Networking_iOS";
+			productName = "Pods-KZ_Networking_iOS";
+			productReference = FAF5FEC82D6135222B1A3DE78C35AC73 /* Pods_KZ_Networking_iOS.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -390,68 +392,50 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0D9446DC358D48D7F5891CE88C3595D8 /* Pods-KZ_Networking_iOS */,
-				FBC9E02A4B353948BE3FF7A729B31B0A /* Pods-KZ_Networking_macOS */,
+				D8F4A11BFC267C13EA39A789EA35C860 /* Pods-KZ_Networking_iOS */,
+				6701E1DB0920C245E74E1AAE4A1A1A53 /* Pods-KZ_Networking_macOS */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXSourcesBuildPhase section */
-		89AE0BDBD55B41321E0CDB0377F94C19 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
+/* Begin PBXResourcesBuildPhase section */
+		03722AB6159401A15E93FEA09BE7A03A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				56183DF4BDA9BA85213CA2E13DF4909C /* Pods-KZ_Networking_macOS-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E2F1BF5854A83741004A5E4A75767C51 /* Sources */ = {
+		1854CB4A1FB35AA597799CCAAAF18B0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9B46B30E074F0C9B8105C7752AEEADA3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B3B32E47F5B1E309D829171B9E5B444 /* Pods-KZ_Networking_iOS-dummy.m in Sources */,
+				527FC9C98E150314B5A9EF8CCF2AF8B5 /* Pods-KZ_Networking_iOS-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC87DCE27C392CB552E3FDDAF5FA3460 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E69DDE53FAD4AC894F828818D6852E53 /* Pods-KZ_Networking_macOS-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		07170BD61896EF0D17ABE70C1ABF9D8B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FB41331890067ABC1DF3723BA678F470 /* Pods-KZ_Networking_macOS.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = "Target Support Files/Pods-KZ_Networking_macOS/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				MODULEMAP_FILE = "Target Support Files/Pods-KZ_Networking_macOS/Pods-KZ_Networking_macOS.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		30EB5609F1CCFEDDCC09C54B0454BEE2 /* Debug */ = {
+		10A551444A43B33A65813261881426CF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F123FEB94F5C1F5524C6EA7AA337C39A /* Pods-KZ_Networking_iOS.debug.xcconfig */;
 			buildSettings = {
@@ -468,7 +452,11 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-KZ_Networking_iOS/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-KZ_Networking_iOS/Pods-KZ_Networking_iOS.modulemap";
 				OTHER_LDFLAGS = "";
@@ -484,76 +472,7 @@
 			};
 			name = Debug;
 		};
-		555EF5A9D5EAC4182002892BE64AB03A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3B28BA2FB9A6A6423361E8AA4D90DE2C /* Pods-KZ_Networking_iOS.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-KZ_Networking_iOS/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-KZ_Networking_iOS/Pods-KZ_Networking_iOS.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		B2CC997311D2F02A11550DC6E51F878C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 92D4C67E47F1ACCBB7DBDD3BCBF13344 /* Pods-KZ_Networking_macOS.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = "Target Support Files/Pods-KZ_Networking_macOS/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				MODULEMAP_FILE = "Target Support Files/Pods-KZ_Networking_macOS/Pods-KZ_Networking_macOS.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		C0B2B4949C5CE6FBC24F652D93816762 /* Debug */ = {
+		1817FC67C021DE2A7569A6C56BE150B8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -608,7 +527,8 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
@@ -617,7 +537,46 @@
 			};
 			name = Debug;
 		};
-		C9B6FAABFE641578385D4CF2A13974D8 /* Release */ = {
+		2EEEACF254081E67F975C73C324A4403 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92D4C67E47F1ACCBB7DBDD3BCBF13344 /* Pods-KZ_Networking_macOS.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-KZ_Networking_macOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = "Target Support Files/Pods-KZ_Networking_macOS/Pods-KZ_Networking_macOS.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		66A22CE8C7F63EB939128450B49D996D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -670,9 +629,87 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		C14D9E6269284C0EE3CA0FEDCAAEDBCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB41331890067ABC1DF3723BA678F470 /* Pods-KZ_Networking_macOS.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-KZ_Networking_macOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = "Target Support Files/Pods-KZ_Networking_macOS/Pods-KZ_Networking_macOS.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E71E4DE425CC69CC487DC53F59948C62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B28BA2FB9A6A6423361E8AA4D90DE2C /* Pods-KZ_Networking_iOS.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KZ_Networking_iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KZ_Networking_iOS/Pods-KZ_Networking_iOS.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -682,26 +719,26 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C0B2B4949C5CE6FBC24F652D93816762 /* Debug */,
-				C9B6FAABFE641578385D4CF2A13974D8 /* Release */,
+				1817FC67C021DE2A7569A6C56BE150B8 /* Debug */,
+				66A22CE8C7F63EB939128450B49D996D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		47FA2D1181B2C1884A16352180EF2390 /* Build configuration list for PBXNativeTarget "Pods-KZ_Networking_macOS" */ = {
+		71643508EF3493F3A5AFE81DAA7243F3 /* Build configuration list for PBXNativeTarget "Pods-KZ_Networking_iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B2CC997311D2F02A11550DC6E51F878C /* Debug */,
-				07170BD61896EF0D17ABE70C1ABF9D8B /* Release */,
+				10A551444A43B33A65813261881426CF /* Debug */,
+				E71E4DE425CC69CC487DC53F59948C62 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CCC765ACB63466263F3E339735A247DB /* Build configuration list for PBXNativeTarget "Pods-KZ_Networking_iOS" */ = {
+		B222062B74B907A79DC5E5D8D9A6652A /* Build configuration list for PBXNativeTarget "Pods-KZ_Networking_macOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				30EB5609F1CCFEDDCC09C54B0454BEE2 /* Debug */,
-				555EF5A9D5EAC4182002892BE64AB03A /* Release */,
+				2EEEACF254081E67F975C73C324A4403 /* Debug */,
+				C14D9E6269284C0EE3CA0FEDCAAEDBCA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

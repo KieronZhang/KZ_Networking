@@ -9,8 +9,8 @@
 /* Begin PBXBuildFile section */
 		5AB178FB53C2458F744C7197 /* Pods_KZ_Networking_macOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FDA86555CA0B2611C564DE5 /* Pods_KZ_Networking_macOS.framework */; };
 		A82A68D643E9F7968BB48389 /* Pods_KZ_Networking_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24646C89B7A0A1E9B642474D /* Pods_KZ_Networking_iOS.framework */; };
-		AE2C5FD9216E0F9900878B87 /* KZ_Networking_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE2C5FD8216E0F9900878B87 /* KZ_Networking_iOS.framework */; };
-		AE2C5FDB216E0FA100878B87 /* KZ_Networking_macOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE2C5FDA216E0FA100878B87 /* KZ_Networking_macOS.framework */; };
+		AE4A1F7D2175BF440095BA90 /* KZ_Networking_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE4A1F7C2175BF430095BA90 /* KZ_Networking_iOS.framework */; };
+		AE4A1F7F2175BF510095BA90 /* KZ_Networking_macOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE4A1F7E2175BF510095BA90 /* KZ_Networking_macOS.framework */; };
 		AEC628A020A02E6300DFC8B9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AEC6289F20A02E6300DFC8B9 /* AppDelegate.m */; };
 		AEC628A620A02E6300DFC8B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEC628A420A02E6300DFC8B9 /* Main.storyboard */; };
 		AEC628A820A02E6300DFC8B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEC628A720A02E6300DFC8B9 /* Assets.xcassets */; };
@@ -37,8 +37,8 @@
 		2FAC4D31B8D7FEAE21E78B45 /* Pods-KZ_Networking_macOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KZ_Networking_macOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-KZ_Networking_macOS/Pods-KZ_Networking_macOS.release.xcconfig"; sourceTree = "<group>"; };
 		3ACA3ABDC572E2364C4753E8 /* Pods-KZ_Networking_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KZ_Networking_iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-KZ_Networking_iOS/Pods-KZ_Networking_iOS.release.xcconfig"; sourceTree = "<group>"; };
 		477E47AA8C521CF68141F7C4 /* Pods-KZ_Networking_macOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KZ_Networking_macOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KZ_Networking_macOS/Pods-KZ_Networking_macOS.debug.xcconfig"; sourceTree = "<group>"; };
-		AE2C5FD8216E0F9900878B87 /* KZ_Networking_iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KZ_Networking_iOS.framework; sourceTree = "<group>"; };
-		AE2C5FDA216E0FA100878B87 /* KZ_Networking_macOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KZ_Networking_macOS.framework; sourceTree = "<group>"; };
+		AE4A1F7C2175BF430095BA90 /* KZ_Networking_iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KZ_Networking_iOS.framework; sourceTree = "<group>"; };
+		AE4A1F7E2175BF510095BA90 /* KZ_Networking_macOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KZ_Networking_macOS.framework; sourceTree = "<group>"; };
 		AEC6289C20A02E6300DFC8B9 /* KZ_Networking_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KZ_Networking_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEC6289E20A02E6300DFC8B9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AEC6289F20A02E6300DFC8B9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -79,7 +79,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A82A68D643E9F7968BB48389 /* Pods_KZ_Networking_iOS.framework in Frameworks */,
-				AE2C5FD9216E0F9900878B87 /* KZ_Networking_iOS.framework in Frameworks */,
+				AE4A1F7D2175BF440095BA90 /* KZ_Networking_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +88,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5AB178FB53C2458F744C7197 /* Pods_KZ_Networking_macOS.framework in Frameworks */,
-				AE2C5FDB216E0FA100878B87 /* KZ_Networking_macOS.framework in Frameworks */,
+				AE4A1F7F2175BF510095BA90 /* KZ_Networking_macOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -184,7 +184,7 @@
 		AEC628DC20A02F1E00DFC8B9 /* Networking */ = {
 			isa = PBXGroup;
 			children = (
-				AE2C5FD8216E0F9900878B87 /* KZ_Networking_iOS.framework */,
+				AE4A1F7C2175BF430095BA90 /* KZ_Networking_iOS.framework */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -192,7 +192,7 @@
 		AEC628DF20A02F2D00DFC8B9 /* Networking */ = {
 			isa = PBXGroup;
 			children = (
-				AE2C5FDA216E0FA100878B87 /* KZ_Networking_macOS.framework */,
+				AE4A1F7E2175BF510095BA90 /* KZ_Networking_macOS.framework */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
