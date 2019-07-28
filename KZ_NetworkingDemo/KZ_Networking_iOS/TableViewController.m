@@ -181,6 +181,10 @@ _Pragma("clang diagnostic pop") \
     [super didReceiveMemoryWarning];
 }
 
+- (void)dealloc {
+    NSLog(@"dealloc");
+}
+
 #pragma clang diagnostic pop
 
 @end
