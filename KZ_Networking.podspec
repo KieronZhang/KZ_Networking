@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
     s.name = 'KZ_Networking'
-    s.version = '0.1.7'
+    s.version = '0.1.8'
     s.summary = 'iOS & macOS NetWorkingAndCache.'
     s.homepage = 'https://github.com/KieronZhang/KZ_Networking'
     s.license = {:type => 'MIT', :file => 'LICENSE'}
