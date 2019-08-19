@@ -342,17 +342,16 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-KZ_Networking_iOS/Pods-KZ_Networking_iOS-resources.sh",
-				"${PODS_ROOT}/KZ_RefreshScrollView/KZ_RefreshScrollView/KZ_RefreshScrollView_Bundle.bundle",
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KZ_Networking_iOS/Pods-KZ_Networking_iOS-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/KZ_RefreshScrollView_Bundle.bundle",
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KZ_Networking_iOS/Pods-KZ_Networking_iOS-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KZ_Networking_iOS/Pods-KZ_Networking_iOS-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KZ_Networking_iOS/Pods-KZ_Networking_iOS-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
