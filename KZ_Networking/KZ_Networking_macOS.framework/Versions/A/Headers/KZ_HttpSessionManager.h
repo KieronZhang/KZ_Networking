@@ -12,10 +12,10 @@
 
 @interface KZ_HttpSessionManager : NSObject
 
-+ (void)getContentWithURL:(NSString *)URLString method:(KZ_RequestMethod)method contentBlock:(void (^)(KZ_RequestModel *requestModel))contentBlock;
++ (KZ_RequestModel *)getContentWithURL:(NSString *)URLString method:(KZ_RequestMethod)method;
 
 + (void)HTTPRequestWithRequestModel:(KZ_RequestModel *)requestModel progress:(void (^)(NSProgress *downloadProgress))downloadProgress success:(void (^)(id responseObject))success failure:(void (^)(NSError *error))failure;
 
-+ (void)deleteDatabase:(void (^)(BOOL finished))success;
++ (BOOL)deleteDatabase;
 
 @end
